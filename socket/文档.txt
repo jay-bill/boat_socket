@@ -1,0 +1,8 @@
+test/Test：主函数，启动程序；
+view/:界面；
+view/LeftPanel:界面左边，上下左右部分；
+view/RightPanel:界面右边，控制部分；
+view/AllPanel:整个界面，把左右整合在一起；
+view/LoginFrame:整个界面，是AllPanel的容器；
+controller/Controller:控制器，用于连接界面和后端程序；
+TcpProgram/TcpClient:tcp客户端，也就是控制器连接的后端部分。
